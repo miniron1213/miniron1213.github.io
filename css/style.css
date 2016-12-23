@@ -1,0 +1,301 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media(max-width:1000px){
+  .item{width:50%}
+}
+
+@media(max-width:670px){
+  .item{width:100%}
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+body{
+	background-image: url("../img/b6.png");
+}
+
+.container{
+	width:1000px;
+	margin: 10px auto;
+}
+
+header{
+	background-color: ;
+	background-repeat: repeat-x;
+	position: relative;
+	width: 100%;
+}
+
+.header-title{
+	font-size: 35px;
+	padding: 20px 0 10px;
+	text-align: center;
+	font-family: Meiryo;
+	font-weight: normal;
+	background-image: url("../img/8.png");
+	background-repeat:repeat-x;
+}
+
+.header-right-sns{
+	position: absolute;
+    bottom: 40px;
+    right: 50px;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+
+.header-right-sns a{
+	text-decoration:none;
+
+}
+.header-right-sns a:hover {
+	text-decoration:underline;
+}
+
+.global-navi{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Meiryo;
+}
+
+.global-navi a{
+	text-decoration:none;
+}
+
+.global-navi a:hover {
+	text-decoration:underline;
+}
+
+.global-navi-list{
+	width: 80%;
+	margin: 0 auto;
+	}
+
+.global-navi-list-item{
+	float: left;
+    padding: 10px 20px 0.5px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar{
+	background-color: ;
+	height: 850px;
+	width: 35%;
+	float: left;
+	border-left: 1px solid #4f3818;
+    border-right: 1px solid #4f3818;
+    padding: 10px;
+}
+
+.sidebar h2{
+	font-size: 18px;
+	padding: 20px 0;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+.sidebar-box{
+	width: 100%;
+	clear: left;
+	margin: 20px 0;
+}
+
+.sidbar-box-img{
+	float: left;
+	padding: 0 15px;
+}
+
+.sidebar-box-text{
+	border-bottom: 1px dashed #4f3818;
+
+}
+
+.sidebar-box-date{
+	background-color: #aa5500;
+	color: #ccc;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+.sidebar-box-text-more{
+	background-color: #6ad500;
+	float: right;
+	padding: 2px 5px;
+	margin: 20px 10px;
+	color: #fff;
+	opacity: 0.6
+}
+
+.sidebar-box-text a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Meiryo;
+}
+
+.sidebar-box-text-more:hover{
+	opacity: 1; 
+
+}
+
+.sidebar h3{
+	font-size: 16px;
+	padding: 10px 0;
+	font-weight: normal;
+	font-family: Meiryo;
+}
+
+.sidebar-box-text-title-p{
+	font-size: 12px;
+	font-family: Meiryo;
+
+}
+
+.message{
+	background-color: ;
+	height: 150px;
+	width: 65%;
+	font-family: Meiryo;
+	float: right;
+}
+
+.message-waku{
+	width: 95%;
+	margin: 10px 20px 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.message h2{
+	font-family: Meiryo;
+	font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.message-text{
+	font-size: 14px;
+	padding: 5px 10px 20px 10px;
+}
+
+.content-menu{
+  background-color: ;
+  height: 700px;
+  width: 65%;
+  float: right;
+}
+
+/*.mainmenu-title{
+	font-size: 20px;
+	font-family: Meiryo;
+	text-align: center;
+	padding: 20px;
+}*/
+
+.mainmenu-title{
+  background-color: #f4b3c2;
+  width: 80%;
+  border: 1px dashed #e8ecef;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px #f4b3c2;
+  font-family: Meiryo;
+  font-size: 18px;
+  padding: 5px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.mainmenu-menu{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.mainmenu-menu-list{
+	float: left;
+}
+
+.mainmenu-menu-list-img{
+	margin: 0 25px;
+}
+
+.mainmenu-menu-list-text{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.item-menu{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.item-menu-title{
+  background-color: #f4b3c2;
+  width: 88%;
+  border: 1px dashed #e8ecef;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px #f4b3c2;
+  font-family: Meiryo;
+  font-size: 18px;
+  padding: 5px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/*.item-menu-title{
+	font-size: 20px;
+	font-family: Meiryo;
+	text-align: center;
+	padding: 50px 20px 20px;
+}*/
+
+.item-menu{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.item-menu-list{
+	float: left;
+}
+
+.item-menu-list-img{
+	margin: 0 25px;
+}
+
+.item-menu-list-text{
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer{
+	background-color: ;
+	height: 50px;
+	width:100%;
+	clear: left;
+	text-align: center;
+	background-image: url("../img/9.png");
+	background-repeat:repeat-x;
+	
+}
+
+.copuright{
+	font-size: 18px;
+	font-family: "Meiryo";
+}
+
